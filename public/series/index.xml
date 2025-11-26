@@ -12,14 +12,6 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Şahin Gülci. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Themes Guide</title>
-      <link>http://localhost:1313/series/themes-guide/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/series/themes-guide/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
