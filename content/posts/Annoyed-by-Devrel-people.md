@@ -1,5 +1,5 @@
 ---
-author: ["Şahin Gülci"]
+author: "Şahin Gülci"
 title: "Annoyed by Devrel "
 date: "2025-11-29"
 tags: ["markdown", "syntax", "code", "gist"]
