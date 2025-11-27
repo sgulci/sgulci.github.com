@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tutorial on Şahin Gülci</title>
+    <link>http://localhost:1313/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Şahin Gülci</description>
+    <image>
+      <title>Şahin Gülci</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Şahin Gülci. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Embed YouTube Videos in Blog Posts</title>
+      <link>http://localhost:1313/posts/__youtube-video-guide/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__youtube-video-guide/</guid>
+      <description>&lt;h1 id=&#34;embedding-youtube-videos-in-blog-posts&#34;&gt;Embedding YouTube Videos in Blog Posts&lt;/h1&gt;
+&lt;p&gt;There are several ways to embed YouTube videos in your blog posts. Here are some examples:&lt;/p&gt;
+&lt;h2 id=&#34;1-using-youtubes-thumbnail-as-a-clickable-link&#34;&gt;1. Using YouTube&amp;rsquo;s Thumbnail as a Clickable Link&lt;/h2&gt;
+&lt;p&gt;This method creates a clickable thumbnail that opens the video in a new tab:&lt;/p&gt;
+&lt;a href=&#34;http://www.youtube.com/watch?v=dQw4w9WgXcQ&#34; target=&#34;_blank&#34;&gt;
+ &lt;img src=&#34;http://img.youtube.com/vi/dQw4w9WgXcQ/mqdefault.jpg&#34; alt=&#34;Never Gonna Give You Up&#34; width=&#34;320&#34; height=&#34;180&#34; style=&#34;border-radius: 10px;&#34; /&gt;
+&lt;/a&gt;
+&lt;h2 id=&#34;2-using-youtubes-embed-iframe&#34;&gt;2. Using YouTube&amp;rsquo;s Embed iframe&lt;/h2&gt;
+&lt;p&gt;This method embeds the video player directly in the post:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/dQw4w9WgXcQ&#34; 
+    title=&#34;YouTube video player&#34; 
+    frameborder=&#34;0&#34; 
+    allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; 
+    allowfullscreen
+    style=&#34;max-width: 100%; border-radius: 10px;&#34;&gt;
+&lt;/iframe&gt;
+&lt;h2 id=&#34;3-using-a-custom-thumbnail&#34;&gt;3. Using a Custom Thumbnail&lt;/h2&gt;
+&lt;p&gt;You can also use a custom thumbnail with a YouTube link:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Another Blog Post</title>
+      <link>http://localhost:1313/posts/__another-post/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__another-post/</guid>
+      <description>&lt;p&gt;This is another blog post with front matter&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

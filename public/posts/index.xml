@@ -12,7 +12,222 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Şahin Gülci. All rights reserved.</copyright>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test post</title>
+      <link>http://localhost:1313/posts/__test-sample-post/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__test-sample-post/</guid>
+      <description>&lt;p&gt;This is a sample blog post written in Markdown.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple and fast&lt;/li&gt;
+&lt;li&gt;Markdown support&lt;/li&gt;
+&lt;li&gt;Clean design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can write your blog posts in Markdown and they will be automatically converted to HTML!&lt;/p&gt;
+&lt;p&gt;The images will be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatically resized to fit the content width&lt;/li&gt;
+&lt;li&gt;Properly styled with rounded corners and subtle shadows&lt;/li&gt;
+&lt;li&gt;Responsive on all devices&lt;/li&gt;
+&lt;li&gt;Optimized for both light and dark modes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let me know if you need any clarification or have questions about using images in your blog posts!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Draft Post - Work in Progress</title>
+      <link>http://localhost:1313/posts/__draft-post/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__draft-post/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-draft-post&#34;&gt;This is a Draft Post&lt;/h1&gt;
+&lt;p&gt;This post is still a work in progress and won&amp;rsquo;t be visible on the blog until it&amp;rsquo;s ready.&lt;/p&gt;
+&lt;h2 id=&#34;todo&#34;&gt;Todo:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Complete the introduction&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add more content sections&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Include relevant examples&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Add conclusion&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Review and edit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;
+&lt;p&gt;This is just a placeholder content that will be replaced with actual content when the post is ready.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Embed YouTube Videos in Blog Posts</title>
+      <link>http://localhost:1313/posts/__youtube-video-guide/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__youtube-video-guide/</guid>
+      <description>&lt;h1 id=&#34;embedding-youtube-videos-in-blog-posts&#34;&gt;Embedding YouTube Videos in Blog Posts&lt;/h1&gt;
+&lt;p&gt;There are several ways to embed YouTube videos in your blog posts. Here are some examples:&lt;/p&gt;
+&lt;h2 id=&#34;1-using-youtubes-thumbnail-as-a-clickable-link&#34;&gt;1. Using YouTube&amp;rsquo;s Thumbnail as a Clickable Link&lt;/h2&gt;
+&lt;p&gt;This method creates a clickable thumbnail that opens the video in a new tab:&lt;/p&gt;
+&lt;a href=&#34;http://www.youtube.com/watch?v=dQw4w9WgXcQ&#34; target=&#34;_blank&#34;&gt;
+ &lt;img src=&#34;http://img.youtube.com/vi/dQw4w9WgXcQ/mqdefault.jpg&#34; alt=&#34;Never Gonna Give You Up&#34; width=&#34;320&#34; height=&#34;180&#34; style=&#34;border-radius: 10px;&#34; /&gt;
+&lt;/a&gt;
+&lt;h2 id=&#34;2-using-youtubes-embed-iframe&#34;&gt;2. Using YouTube&amp;rsquo;s Embed iframe&lt;/h2&gt;
+&lt;p&gt;This method embeds the video player directly in the post:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/dQw4w9WgXcQ&#34; 
+    title=&#34;YouTube video player&#34; 
+    frameborder=&#34;0&#34; 
+    allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; 
+    allowfullscreen
+    style=&#34;max-width: 100%; border-radius: 10px;&#34;&gt;
+&lt;/iframe&gt;
+&lt;h2 id=&#34;3-using-a-custom-thumbnail&#34;&gt;3. Using a Custom Thumbnail&lt;/h2&gt;
+&lt;p&gt;You can also use a custom thumbnail with a YouTube link:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post With Images</title>
+      <link>http://localhost:1313/posts/__post-with-image/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__post-with-image/</guid>
+      <description>&lt;h1 id=&#34;using-images-in-blog-posts&#34;&gt;Using Images in Blog Posts&lt;/h1&gt;
+&lt;p&gt;You can add images to your posts in two ways:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Using regular markdown syntax:
+&lt;img alt=&#34;Go Gopher&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/static/images/gopher.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using HTML for more control:
+&lt;img src=&#34;http://localhost:1313/static/images/gopher.png&#34; alt=&#34;Go Gopher&#34; style=&#34;max-width: 300px; border-radius: 8px;&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Images can be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PNG, JPG, GIF formats&lt;/li&gt;
+&lt;li&gt;Placed in the static/images directory&lt;/li&gt;
+&lt;li&gt;Referenced using relative paths&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;youtube video embedding:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a href=&#34;http://www.youtube.com/watch?feature=player_embedded&amp;v=nTQUwghvy5Q&#34; target=&#34;_blank&#34;&gt;
+ &lt;img src=&#34;http://img.youtube.com/vi/nTQUwghvy5Q/mqdefault.jpg&#34; alt=&#34;Watch the video&#34; width=&#34;240&#34; height=&#34;180&#34; border=&#34;10&#34; /&gt;
+&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>http://localhost:1313/posts/__sample-post/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__sample-post/</guid>
+      <description>&lt;p&gt;This is a sample blog post written in Markdown.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple and fast&lt;/li&gt;
+&lt;li&gt;Markdown support&lt;/li&gt;
+&lt;li&gt;Clean design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can write your blog posts in Markdown and they will be automatically converted to HTML!&lt;/p&gt;
+&lt;p&gt;The images will be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatically resized to fit the content width&lt;/li&gt;
+&lt;li&gt;Properly styled with rounded corners and subtle shadows&lt;/li&gt;
+&lt;li&gt;Responsive on all devices&lt;/li&gt;
+&lt;li&gt;Optimized for both light and dark modes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let me know if you need any clarification or have questions about using images in your blog posts!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Another Blog Post</title>
+      <link>http://localhost:1313/posts/__another-post/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__another-post/</guid>
+      <description>&lt;p&gt;This is another blog post with front matter&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/__go-io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__go-io/</guid>
+      <description>&lt;h2 id=&#34;go-language-io-operations&#34;&gt;GO language IO operations&lt;/h2&gt;
+&lt;p&gt;os package&lt;/p&gt;
+&lt;p&gt;bufio package&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/__java-dynamic-proxies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__java-dynamic-proxies/</guid>
+      <description>&lt;h1 id=&#34;java-dynamic-proxy&#34;&gt;Java Dynamic Proxy&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.baeldung.com/java-dynamic-proxies&#34;&gt;https://www.baeldung.com/java-dynamic-proxies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/proxy.html&#34;&gt;https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/proxy.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@AlexanderObregon/the-mechanics-behind-how-java-implements-dynamic-proxy-classes-at-runtime-a8dbc23844e2&#34;&gt;https://medium.com/@AlexanderObregon/the-mechanics-behind-how-java-implements-dynamic-proxy-classes-at-runtime-a8dbc23844e2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.graalvm.org/jdk21/reference-manual/native-image/dynamic-features/DynamicProxy/ge&#34;&gt;https://www.graalvm.org/jdk21/reference-manual/native-image/dynamic-features/DynamicProxy/ge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/__java-file-io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__java-file-io/</guid>
+      <description>&lt;h1 id=&#34;java-file-ionio-basics&#34;&gt;Java File IO/NIO Basics&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/__os-file-representation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__os-file-representation/</guid>
+      <description>&lt;h2 id=&#34;operating-systems-file-representation-posix-standards&#34;&gt;Operating Systems File representation, POSIX standards&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/__spring-data-repository-how-it-is-work-or-spring-aot-dynamic-proxies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__spring-data-repository-how-it-is-work-or-spring-aot-dynamic-proxies/</guid>
+      <description>&lt;h1 id=&#34;spring-data-repository&#34;&gt;Spring Data Repository&lt;/h1&gt;
+&lt;p&gt;Spring Data Repository interface uses dynamic proxies for create proxy classes for repository interface&lt;/p&gt;
+&lt;p&gt;Links&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@mahammadkhalilov/understanding-spring-proxies-jdk-dynamic-proxy-vs-cglib-proxy-7d76bf5b85ac&#34;&gt;https://medium.com/@mahammadkhalilov/understanding-spring-proxies-jdk-dynamic-proxy-vs-cglib-proxy-7d76bf5b85ac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.spring.io/spring-framework/reference/core/aop/proxying.html&#34;&gt;https://docs.spring.io/spring-framework/reference/core/aop/proxying.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@AlexanderObregon/how-spring-boot-sets-up-spring-data-repositories-0638ee938133&#34;&gt;https://medium.com/@AlexanderObregon/how-spring-boot-sets-up-spring-data-repositories-0638ee938133&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;App starts → Scans for repository interfaces
+→ Creates proxy class implementing them
+→ Routes calls to SimpleJpaRepository or generates query
+→ Executes query via EntityManager&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/__spring-security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__spring-security/</guid>
+      <description>&lt;h1 id=&#34;spring-security&#34;&gt;Spring Security&lt;/h1&gt;
+&lt;h2 id=&#34;security-filter-chain&#34;&gt;Security Filter Chain&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Make stateless for no session type auth, like token based ones&lt;/li&gt;
+&lt;li&gt;on this configuration class use jwtfilter class you created&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-@Bean&#34; data-lang=&#34;@Bean&#34;&gt;     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+             http
+                 .csrf(AbstractHttpConfigurer::disable)
+                 .authorizeHttpRequests(auth -&amp;gt; auth
+                     .requestMatchers(&amp;#34;/api/auth/**&amp;#34;, &amp;#34;/v3/api-docs/**&amp;#34;, &amp;#34;/swagger-ui/**&amp;#34;).permitAll()
+                     .anyRequest().authenticated()
+                 )
+                 .sessionManagement(session -&amp;gt; session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
+
+        return http.build();
+     }
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@prasanta-paul/spring-security-for-web-and-api-f94b4834b0c0&#34;&gt;https://medium.com/@prasanta-paul/spring-security-for-web-and-api-f94b4834b0c0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.spring.io/spring-security/reference/servlet/architecture.html&#34;&gt;https://docs.spring.io/spring-security/reference/servlet/architecture.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.baeldung.com/spring-security-custom-filter&#34;&gt;https://www.baeldung.com/spring-security-custom-filter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.spring.io/spring-security/reference/features/exploits/csrf.html&#34;&gt;https://docs.spring.io/spring-security/reference/features/exploits/csrf.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.baeldung.com/spring-boot-security-autoconfiguration&#34;&gt;https://www.baeldung.com/spring-boot-security-autoconfiguration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Encoding&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Encoding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@AlexanderObregon/spring-microservices-data-compression-techniques-for-faster-responses-b61d3fc6fae1&#34;&gt;https://medium.com/@AlexanderObregon/spring-microservices-data-compression-techniques-for-faster-responses-b61d3fc6fae1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/rock_win_c053fa5fb2399067/enabling-gzip-compression-in-spring-boot-for-faster-web-apps-3abe&#34;&gt;https://dev.to/rock_win_c053fa5fb2399067/enabling-gzip-compression-in-spring-boot-for-faster-web-apps-3abe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@narasimha4789/implementing-deflate-compression-in-spring-boot-446df8b92761&#34;&gt;https://medium.com/@narasimha4789/implementing-deflate-compression-in-spring-boot-446df8b92761&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;spring-security-fundamantels&#34;&gt;Spring security fundamantels&lt;/h2&gt;
+&lt;p&gt;Spring uses DispatcherServlet for matching and distributing requests.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

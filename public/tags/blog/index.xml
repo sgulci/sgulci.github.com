@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Şahin Gülci</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on Şahin Gülci</description>
+    <image>
+      <title>Şahin Gülci</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Şahin Gülci. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test post</title>
+      <link>http://localhost:1313/posts/__test-sample-post/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__test-sample-post/</guid>
+      <description>&lt;p&gt;This is a sample blog post written in Markdown.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple and fast&lt;/li&gt;
+&lt;li&gt;Markdown support&lt;/li&gt;
+&lt;li&gt;Clean design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can write your blog posts in Markdown and they will be automatically converted to HTML!&lt;/p&gt;
+&lt;p&gt;The images will be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatically resized to fit the content width&lt;/li&gt;
+&lt;li&gt;Properly styled with rounded corners and subtle shadows&lt;/li&gt;
+&lt;li&gt;Responsive on all devices&lt;/li&gt;
+&lt;li&gt;Optimized for both light and dark modes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let me know if you need any clarification or have questions about using images in your blog posts!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>http://localhost:1313/posts/__sample-post/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/__sample-post/</guid>
+      <description>&lt;p&gt;This is a sample blog post written in Markdown.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple and fast&lt;/li&gt;
+&lt;li&gt;Markdown support&lt;/li&gt;
+&lt;li&gt;Clean design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can write your blog posts in Markdown and they will be automatically converted to HTML!&lt;/p&gt;
+&lt;p&gt;The images will be:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatically resized to fit the content width&lt;/li&gt;
+&lt;li&gt;Properly styled with rounded corners and subtle shadows&lt;/li&gt;
+&lt;li&gt;Responsive on all devices&lt;/li&gt;
+&lt;li&gt;Optimized for both light and dark modes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let me know if you need any clarification or have questions about using images in your blog posts!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
