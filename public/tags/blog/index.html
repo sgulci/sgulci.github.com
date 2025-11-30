@@ -148,34 +148,15 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">test post
+    <h2 class="entry-hint-parent">Spring Security
     </h2>
   </header>
   <div class="entry-content">
-    <p>This is a sample blog post written in Markdown.
-Features Simple and fast Markdown support Clean design You can write your blog posts in Markdown and they will be automatically converted to HTML!
-The images will be:
-Automatically resized to fit the content width Properly styled with rounded corners and subtle shadows Responsive on all devices Optimized for both light and dark modes Let me know if you need any clarification or have questions about using images in your blog posts!
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-01-15 00:00:00 +0000 UTC'>January 15, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>John Doe</span></footer>
-  <a class="entry-link" aria-label="post link to test post" href="http://localhost:1313/posts/__test-sample-post/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Welcome to My Blog
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This is a sample blog post written in Markdown.
-Features Simple and fast Markdown support Clean design You can write your blog posts in Markdown and they will be automatically converted to HTML!
-The images will be:
-Automatically resized to fit the content width Properly styled with rounded corners and subtle shadows Responsive on all devices Optimized for both light and dark modes Let me know if you need any clarification or have questions about using images in your blog posts!
-...</p>
+    <p>Spring Security Security Filter Chain Make stateless for no session type auth, like token based ones on this configuration class use jwtfilter class you created public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception { http .csrf(AbstractHttpConfigurer::disable) .authorizeHttpRequests(auth -&gt; auth .requestMatchers(&#34;/api/auth/**&#34;, &#34;/v3/api-docs/**&#34;, &#34;/swagger-ui/**&#34;).permitAll() .anyRequest().authenticated() ) .sessionManagement(session -&gt; session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)) .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class); return http.build(); } https://medium.com/@prasanta-paul/spring-security-for-web-and-api-f94b4834b0c0 https://docs.spring.io/spring-security/reference/servlet/architecture.html https://www.baeldung.com/spring-security-custom-filter https://docs.spring.io/spring-security/reference/features/exploits/csrf.html https://www.baeldung.com/spring-boot-security-autoconfiguration https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Encoding https://medium.com/@AlexanderObregon/spring-microservices-data-compression-techniques-for-faster-responses-b61d3fc6fae1 https://dev.to/rock_win_c053fa5fb2399067/enabling-gzip-compression-in-spring-boot-for-faster-web-apps-3abe https://medium.com/@narasimha4789/implementing-deflate-compression-in-spring-boot-446df8b92761 Spring security fundamantels Spring uses DispatcherServlet for matching and distributing requests.
+</p>
   </div>
   <footer class="entry-footer"><span title='2024-03-15 00:00:00 +0000 UTC'>March 15, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>John Doe</span></footer>
-  <a class="entry-link" aria-label="post link to Welcome to My Blog" href="http://localhost:1313/posts/__sample-post/"></a>
+  <a class="entry-link" aria-label="post link to Spring Security" href="http://localhost:1313/posts/spring-security/"></a>
 </article>
     </main>
     

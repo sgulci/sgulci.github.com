@@ -12,51 +12,45 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Şahin Gülci. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test post</title>
-      <link>http://localhost:1313/posts/__test-sample-post/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/__test-sample-post/</guid>
-      <description>&lt;p&gt;This is a sample blog post written in Markdown.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Simple and fast&lt;/li&gt;
-&lt;li&gt;Markdown support&lt;/li&gt;
-&lt;li&gt;Clean design&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You can write your blog posts in Markdown and they will be automatically converted to HTML!&lt;/p&gt;
-&lt;p&gt;The images will be:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Automatically resized to fit the content width&lt;/li&gt;
-&lt;li&gt;Properly styled with rounded corners and subtle shadows&lt;/li&gt;
-&lt;li&gt;Responsive on all devices&lt;/li&gt;
-&lt;li&gt;Optimized for both light and dark modes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Let me know if you need any clarification or have questions about using images in your blog posts!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Welcome to My Blog</title>
-      <link>http://localhost:1313/posts/__sample-post/</link>
+      <title>Spring Security</title>
+      <link>http://localhost:1313/posts/spring-security/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/__sample-post/</guid>
-      <description>&lt;p&gt;This is a sample blog post written in Markdown.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+      <guid>http://localhost:1313/posts/spring-security/</guid>
+      <description>&lt;h1 id=&#34;spring-security&#34;&gt;Spring Security&lt;/h1&gt;
+&lt;h2 id=&#34;security-filter-chain&#34;&gt;Security Filter Chain&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Simple and fast&lt;/li&gt;
-&lt;li&gt;Markdown support&lt;/li&gt;
-&lt;li&gt;Clean design&lt;/li&gt;
+&lt;li&gt;Make stateless for no session type auth, like token based ones&lt;/li&gt;
+&lt;li&gt;on this configuration class use jwtfilter class you created&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;You can write your blog posts in Markdown and they will be automatically converted to HTML!&lt;/p&gt;
-&lt;p&gt;The images will be:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Automatically resized to fit the content width&lt;/li&gt;
-&lt;li&gt;Properly styled with rounded corners and subtle shadows&lt;/li&gt;
-&lt;li&gt;Responsive on all devices&lt;/li&gt;
-&lt;li&gt;Optimized for both light and dark modes&lt;/li&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-@Bean&#34; data-lang=&#34;@Bean&#34;&gt;     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+             http
+                 .csrf(AbstractHttpConfigurer::disable)
+                 .authorizeHttpRequests(auth -&amp;gt; auth
+                     .requestMatchers(&amp;#34;/api/auth/**&amp;#34;, &amp;#34;/v3/api-docs/**&amp;#34;, &amp;#34;/swagger-ui/**&amp;#34;).permitAll()
+                     .anyRequest().authenticated()
+                 )
+                 .sessionManagement(session -&amp;gt; session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
+
+        return http.build();
+     }
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@prasanta-paul/spring-security-for-web-and-api-f94b4834b0c0&#34;&gt;https://medium.com/@prasanta-paul/spring-security-for-web-and-api-f94b4834b0c0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.spring.io/spring-security/reference/servlet/architecture.html&#34;&gt;https://docs.spring.io/spring-security/reference/servlet/architecture.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.baeldung.com/spring-security-custom-filter&#34;&gt;https://www.baeldung.com/spring-security-custom-filter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.spring.io/spring-security/reference/features/exploits/csrf.html&#34;&gt;https://docs.spring.io/spring-security/reference/features/exploits/csrf.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.baeldung.com/spring-boot-security-autoconfiguration&#34;&gt;https://www.baeldung.com/spring-boot-security-autoconfiguration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Encoding&#34;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Encoding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@AlexanderObregon/spring-microservices-data-compression-techniques-for-faster-responses-b61d3fc6fae1&#34;&gt;https://medium.com/@AlexanderObregon/spring-microservices-data-compression-techniques-for-faster-responses-b61d3fc6fae1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/rock_win_c053fa5fb2399067/enabling-gzip-compression-in-spring-boot-for-faster-web-apps-3abe&#34;&gt;https://dev.to/rock_win_c053fa5fb2399067/enabling-gzip-compression-in-spring-boot-for-faster-web-apps-3abe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@narasimha4789/implementing-deflate-compression-in-spring-boot-446df8b92761&#34;&gt;https://medium.com/@narasimha4789/implementing-deflate-compression-in-spring-boot-446df8b92761&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Let me know if you need any clarification or have questions about using images in your blog posts!&lt;/p&gt;</description>
+&lt;h2&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;spring-security-fundamantels&#34;&gt;Spring security fundamantels&lt;/h2&gt;
+&lt;p&gt;Spring uses DispatcherServlet for matching and distributing requests.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

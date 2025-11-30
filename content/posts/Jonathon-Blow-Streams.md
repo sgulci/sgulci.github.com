@@ -1,34 +1,54 @@
 ---
-author: "Şahin Gülci"
-title: "What I learned from watching Jonathan Blow streams, so you don’t have to"
-date: "2025-11-29"
-description: "What I learned from watching Jonathan Blow streams, so you don’t have to"
-tags: ["Jonathan Blow", "John", "blow", "Thekla"]
-categories: ["themes", "syntax"]
+author: Şahin Gülci
+title: What I learned from watching Jonathan Blow  Twitch streams, so you don’t have to
+date: "2025-11-28"
 ShowToc: true
 TocOpen: true
 draft: true
 ---
 
-# What I learned from watching Jonathan Blow streams, so you don’t have to
+# What I learned from watching Jonathan Blow Twitch streams, so you don’t have to
 
-Jonathan Blow makes twitch streams dates back to a dacade and I think what he is doing is showing what software development is in context of game programming but in general what the essence of programming is. I watched old and new videos from youtube and twitch. Jon has a lot of opinion about a lot things which people asking about, I am not agree most of the arguments he is making but those are not the thing we are gonna talk about in this article.  These thoughts are not new things but worth to remember and watching these videos reminded me what we are doing in reality, not praising how glorious software development is. Let's start.
+Jonathan Blow makes twitch streams dates back to a dacade and I think what he is doing is showing what software development is in the context of game programming but in general what the essence of programming is. I watched old and new videos from youtube and twitch. Jon has a lot of opinion about a lot things which people asking about, I am not agree most of the arguments he is making but those are not the thing we are gonna talk about in this article.  These thoughts are not new things but worth to remember and watching these videos reminded me what we are doing in reality, not praising about how glorious software development is. Let's start.
 
-## 1 - It is lonely business 
+## 1 - It is a lonely business 
 
-Yes, software development is lonely at core. That's why most people in the our domain are introverts that has no problem with working long hours completely alone in their head.       I can see Jon's streams as a some coping machanism
+Yes, software development is lonely at core. That's why most people in the our domain are introverts that has no problem with working long hours completely alone.Even when in working with crowd, mostly we are working in our heads. Being remote makes it worst. I can see Jon's streams as a some coping machanism about this issue. Yes, Jon gets mad about some questions, but at least there is someone being mad about. What if Jon has only a volley ball named Wilson and talk to Wilson? It makes it worse right? I heard Jon's said that he was going cafes for working because he likes to be around people. Most people I know, is like that. It does not matter being introvert or extrovert. People need other people. Yet our job is making hard to cooperate with other to do ow while doing our job. We love our jobs, but it is you, only working on that job of yours, accept this, and find some ways to deal with loneliness aspect early on as possible. Most people being online is coping machanism for being lonely. Everyone is different, so find your way out of being lonely. This job of our is not helping.
 
 ## 2 - it is boring
 
+When I looking  Jon working hours talking/thinking himself while sitting hours looking screen, outside, I faced the fact that this job is boring. This is the same feeling when in movies or tv series showing how glorious being a chef is. They say it is coolest job but all I see is standing long hours in the heat making dishes that I have zero interest. To me it is like torture but here those people fantasias about being a chef. Yes when you from outside, programming is incredible boring thing to do. But we see this as different perspective in our minds. That's make us different from other people. If you have any objection that is our job is not boring, ask yourself, when last time you persue shiny new tech/framework/hardware? when you went to party what id the response you get when you talk about new framework or your job or any related subject? When you are look from outside what you are doing, it is boring what you do. When you chase new shiny object because you look outside for a new thrill, new things to talk about with your nerd friends like you. We love our jobs most of the time but it is boring.
+
 ## 3 - it should be cumulative but system does not let you to it that way
+
+Let's talk about something bothers me a long time. How current state of dev ecosystem is not letting us our knowledge to add up, give us premade things to chain us, mentally and phsically. When Jon start of the new game, he deliberately copy old code from previous game and adapt to his new game. He did this step by step, with experience, he adapting what it was troubling and what was working. He creates his knowledge from experience he had, and add new things to that, ongoing. That was my thinking in last a few years and Jon was doing all along. Knowledge should be cumulative.  He is not talking about this or not writing a book to tarnsition consulting businnes. He is showing what he is doing, adds nothing to it. 
+
+Let me give you examples for clarifaying what we are talking here.  When you looking job ads, they wanna find someone with experience of a  web framework or  a game engine with some years. New grads or anyone wanting a job on software, looks for these and starts from Spring or Unity. They are not solidfying their knowledge about networking/http/dns or how projection/ray tracing/gpu works from ground up. They are doing what needs to be done to pass interview, which is correct in this circumtances. Learn framework, do some leetcode if it is needs to pass the interview. And that's it. Fastest way to entering business. It very easy to blame new ones without looking what our industry doing or which people are getting rewarded. New generations probably smarter than old ones but people are complaining like it is otherwise. Ooo "they are not knowing basic things", yes because those are not needed for what necessary. Passing interview, get job, work on already established tools, and you are set to be retirement. Most of them doing minimum to do what is necessary and that is smart. It does not matter if they are here bacause of money or not. Most of them showing their intelligence or curosity on things that are not interest to you. 
+
+Without their own thinking/learning/experiencing ground up, people are getting fragile mentally and expandaple for companies. They can remove you and get a new one with less experince easily. Literally there are zero differences between 3 years of Spring and 10 years of Spring experience. You can change word "Spring" with any tools. Domain knowledge is important but tools are not, for cumulative understanding. Other thing is, accumalated knowledge is incapsulated in tools, and companies makes money from those accumaleted knowledge tools. Not touching in those tools makes you poor in mentally. And yes, open source is knowledge tools too. Using a tool or seeing a code not the same thing as creating or manupilating experience. I asaying, you have to create your own tools like real carpanters. You should learn from experience, reading or watching is not cut it. You should write miniature of every tool you use, on your domain. Let those experiences and knowlegde adds up. 
+
+Jon is not addressing these issues directly, he is doing his job and complaining time to time. We should fills up distance between what Jon is doing and what is the environment we are living in. Yes, we should pass interviews for the jobs and yes, we should add missing experiences ourselves if we care about things we are doing. 
+
+There are a lot to be saying about other things to be related, but I am stopping here. Last things to say for me, do not complain about people in our industry, this the world we live in, we did this ourselves. Do your job, create knowledge from experience and observation you had, do not afraid to make your opinion yourself, our industry filled with wrong things.
+ 
 
 ## 4 - graphic api does not matter, this one is very hard to understand if have few years experience in cg or don’t, but it will make sense when you do cg without graphic api, do that if wanna understand or want a job in cg area
 
 ## 5 - it is frustrating sometimes and that where you decide if this thing is for you or not, do not pick this job without having frustration not know what to do next to fix or do thing
 
+When I watched Jon, trying solvings bugs he created (or team does not matter), what happens next usually is, Jon sees or learns about a bug, works on it, complains how dumb the bug is, complains how stupid he is, after some changes, he breaks other things, he says everything is correct and should works normally, complains more, he says, can not publish the game with that thing, interogates himself verbally, is he really needs to spends all the time and money to make this game?  And sees a if statement without else and write that down, now that fixes the bug. Jon gets himself a cake and eats it while talking, answering the chat. Continues working on his game.
+
+There is no exegration what I described above, you can watch this yourself, most of the Jon's streams has these moments. Every developer has these moments, no fun in these moments, no fun at all. Watch yourself in these helpless moments, I think your true intentions shows in that stiuations. I saw juniors being very stressed about bugs they were working on, even crying happenned sometimes. Frustration is a thing we should expect not something we should avoid. Do you remember about tools I was wrote, think about all those frustrating moment people had while creating those tools. This is the experince/knowledge we adding, tools makes money from not people to have those moments, and those moments makes your opinion. But the price is feeling helpless, cursing yourself, wasting all your time. 
+
+When I first started doing software, I was talking, trying to convince people that is easy thing to do, they should start coding. After years of experince, I learned that this job is not for everyone.  
+
 ## 6 - you should look performance after the features you wanted are done, but be mindful about performance while you coding, meaning think perf while coding with your past experience or knowledge, yes there is always gonna be exception, it is hard to know, yes, thats the thing you set out the do, be ok with not knowing until you know
 
 ## 7 -  when do thing most things by hand your frustration going to be less because you have control over it, not having control usually means, too much abstraction on your codebase you did not added or maybe you did ???
+
+When I watched Jon's behaviour when solving problems, I thought about some of my experinces. My disappointment level was higher than Jon on those times. Thinking about why is this, I made some conclutions. On those times I was working on some logo like application that connecting frameworks and drowning in configurations. I was not just experiencing frustration, I was desperate, I was behaving like monkey to hitting buttons. All the experience before that was helped me, I already built my muscles to dealing with stress. Rest was just a timing game. Problems gones after the right config until next time. 
+
+Can you see, what we are coming to same theme? Jon is writing tools to help him, if somethings wrong he has more control. Jon's stiuation is much much less common for industry we live in, I accept that. But also you should accept, how everythings  adds up.  
 
 ## 8 -  hiring is hard which is my personnel experience to 
 
