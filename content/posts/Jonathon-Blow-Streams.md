@@ -17,7 +17,7 @@ Yes, software development is lonely at core. That's why most people in the our d
 
 ## 2 - it is boring
 
-When I looking  Jon working hours talking/thinking himself while sitting hours looking screen, outside, I faced the fact that this job is boring. This is the same feeling when in movies or tv series showing how glorious being a chef is. They say it is coolest job but all I see is standing long hours in the heat making dishes that I have zero interest. To me it is like torture but here those people fantasias about being a chef. Yes when you from outside, programming is incredible boring thing to do. But we see this as different perspective in our minds. That's make us different from other people. If you have any objection that is our job is not boring, ask yourself, when last time you persue shiny new tech/framework/hardware? when you went to party what id the response you get when you talk about new framework or your job or any related subject? When you are look from outside what you are doing, it is boring what you do. When you chase new shiny object because you look outside for a new thrill, new things to talk about with your nerd friends like you. We love our jobs most of the time but it is boring.
+When I looking  Jon, working/talking/thinking himself while sitting hours looking screen, I faced the fact that this job is boring. This is the same feeling when in movies or tv series, showing how glorious being a chef is. They say ,it is coolest job but all I see is, standing long hours in the heat, making dishes that I have zero interest. To me it is like torture but here those people talking  fantasies about being a chef. Yes, when you from outside, programming is incredible boring thing to do. But we see this as different perspective in our minds. That's make us different from other people. If you have any objection, that is, our job is not boring, ask yourself,  when you went to party, what is the response you get, when you talk about new framework or your job or any related subject? When you are look from outside what you are doing, it is boring what you do. You chase new shiny object, because you look for a new thrill, new things to talk about with your nerd friends. We love our jobs most of the time but it is boring.
 
 ## 3 - it should be cumulative but system does not let you to it that way
 
@@ -29,18 +29,20 @@ Without their own thinking/learning/experiencing ground up, people are getting f
 
 Jon is not addressing these issues directly, he is doing his job and complaining time to time. We should fills up distance between what Jon is doing and what is the environment we are living in. Yes, we should pass interviews for the jobs and yes, we should add missing experiences ourselves if we care about things we are doing. 
 
+Another thing I wanna address is, tools/languages we use, distorts our perception of reality. If you are using only Spring framework than every problem you have gonna be a Spring problem.  There is a [PHP framework](https://nativephp.com/) for native application development. Read that sentence again. Developer likes their view of world to apply everything. 
+
 There are a lot to be saying about other things to be related, but I am stopping here. Last things to say for me, do not complain about people in our industry, this the world we live in, we did this ourselves. Do your job, create knowledge from experience and observation you had, do not afraid to make your opinion yourself, our industry filled with wrong things.
  
 
 ## 4 - graphic api does not matter, this one is very hard to understand if have few years experience in cg or don’t, but it will make sense when you do cg without graphic api, do that if wanna understand or want a job in cg area
 
-## 5 - it is frustrating sometimes and that where you decide if this thing is for you or not, do not pick this job without having frustration not know what to do next to fix or do thing
+## 5 - it is frustrating sometimes and that's where you decide if this thing is for you or not, do not pick this job without having frustration
 
-When I watched Jon, trying solvings bugs he created (or team does not matter), what happens next usually is, Jon sees or learns about a bug, works on it, complains how dumb the bug is, complains how stupid he is, after some changes, he breaks other things, he says everything is correct and should works normally, complains more, he says, can not publish the game with that thing, interogates himself verbally, is he really needs to spends all the time and money to make this game?  And sees a if statement without else and write that down, now that fixes the bug. Jon gets himself a cake and eats it while talking, answering the chat. Continues working on his game.
+When I watched Jon, trying solvings bugs he created (or team, does not matter), what happens next usually is, Jon sees or learns about a bug, works on it, complains how dumb the bug is, complains how stupid he is, after some changes, he breaks other things, he says everything is correct and should works normally, complains more, he says, can not publish the game with that thing, interogates himself verbally, is he really needs to spends all the time and money to make this game?  And sees a if statement without else and adds else blocks, now that fixes the bug. Jon gets himself a cake and eats it while talking, answering the chat. Continues working on his game.
 
-There is no exegration what I described above, you can watch this yourself, most of the Jon's streams has these moments. Every developer has these moments, no fun in these moments, no fun at all. Watch yourself in these helpless moments, I think your true intentions shows in that stiuations. I saw juniors being very stressed about bugs they were working on, even crying happenned sometimes. Frustration is a thing we should expect not something we should avoid. Do you remember about tools I was wrote, think about all those frustrating moment people had while creating those tools. This is the experince/knowledge we adding, tools makes money from not people to have those moments, and those moments makes your opinion. But the price is feeling helpless, cursing yourself, wasting all your time. 
+There is no exegration what I described above, you can watch this yourself, most of the Jon's streams has these moments. Every developer has these moments.No fun in these moments, no fun at all. Watch yourself in these helpless moments, I think your true intentions shows in that stiuations. I saw juniors being very stressed about bugs they were working on, even crying happenned sometimes. Frustration is a thing we should expect not something we should avoid. Do you remember about tools I was wrote, think about all those frustrating moment people had, while creating those tools. Tools makes money from not people having those moments. This is the experince/knowledge we are adding, and those moments makes your opinions. But the price is feeling helpless, cursing yourself, wasting all your time. 
 
-When I first started doing software, I was talking, trying to convince people that is easy thing to do, they should start coding. After years of experince, I learned that this job is not for everyone.  
+When I first started doing software, I was talking, trying to convince people, that is easy thing to do, they should start coding. After years of experince, I learned that, this job is not for everyone.  
 
 ## 6 - you should look performance after the features you wanted are done, but be mindful about performance while you coding, meaning think perf while coding with your past experience or knowledge, yes there is always gonna be exception, it is hard to know, yes, thats the thing you set out the do, be ok with not knowing until you know
 
@@ -51,6 +53,12 @@ When I watched Jon's behaviour when solving problems, I thought about some of my
 Can you see, what we are coming to same theme? Jon is writing tools to help him, if somethings wrong he has more control. Jon's stiuation is much much less common for industry we live in, I accept that. But also you should accept, how everythings  adds up.  
 
 ## 8 -  hiring is hard which is my personnel experience to 
+
+## 8 - he plays games when he wants to, and he wants a lot, he likes games
+
+Jon play games a lot, and thats why, he continues to do what he wants to do. I do not about you but, I never saw normal programmers to be play or investigate another CRM/ERP applications on their free time. Most people talking about programming on free time, which is misleading on my opinion. We should put creation top priority  on domains we like. But most of us prioritize programming because of programming. You can be much better position if you produce something, instead of learning new programing language or framework. Or You can learn by creating. 
+
+ Jon palys other games most of the time not creates. He is already doing it as a job.  
 
 ## 9 - this my addition,  
 
