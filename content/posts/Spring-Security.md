@@ -14,7 +14,8 @@ draft: true
 - Make stateless for no session type auth, like token based ones
 - on this configuration class use jwtfilter class you created
 
-```@Bean
+```java
+@Bean
      public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
              http
                  .csrf(AbstractHttpConfigurer::disable)
